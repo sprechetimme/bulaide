@@ -1588,7 +1588,7 @@ pre code {
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 1190px;
   }
 }
 .container-fluid {
@@ -4061,7 +4061,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-top-right-radius: 0;
 }
 .navbar {
-  position: relative;
+  position: relative ;
+
   min-height: 50px;
   margin-bottom: 20px;
   border: 1px solid transparent;
