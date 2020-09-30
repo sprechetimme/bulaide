@@ -38,39 +38,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <body>
 <!--header-->
 <div class="header">
-<div class="header-nav">
-	<div class="container">
-		<div class="logo">
-			<a href="index.html"><h1>Mechanical</h1></a>
-		</div>
-		<div class="navigation">
-			<nav class="navbar navbar-default">
-				<div class="navbar-header">
-					  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"> </span>
-						<span class="icon-bar"> </span>
-						<span class="icon-bar"> </span>
-					  </button>
-					</div>
-					<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
-					  <ul class="nav navbar-nav">
-						<li><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
-						<li class="active"><a href="about.html">About</a></li>
-						<li><a href="services.html">Services</a></li>
-						<li><a href="blog.html">Blog</a></li>
-						<li><a href="gallery.html">Gallery</a></li>
-						<li><a href="contact.html">Contact Us</a></li>
-					  </ul>
-			  <div class="clearfix"> </div>
-			</div><!-- /.navbar-collapse -->
-		</nav>
-	</div>
-	</div>
-	</div>
+
 </div>
 			  <!-- script-for-menu -->
 		 <script>
+			 $(function () {
+				 $(".header").load("reset/header.html");
+			 })
+
 				$("span.menu").click(function(){
 					$(".top-nav ul").slideToggle("slow" , function(){
 					});
