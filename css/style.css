@@ -574,7 +574,7 @@ ul.nav.navbar-nav li a.active {
 
 .features-right p {
     font-size: 1em;
-    line-height: 1.8em;
+    line-height: 1.55em;
     margin-bottom: 1em;
 }
 
@@ -915,7 +915,7 @@ h3.team {
 }
 
 .about-list ul li a {
-    color: #848484;
+    color: #87CEFA;
     font-size: .95em;
     text-decoration: none;
 }

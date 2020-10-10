@@ -5,7 +5,7 @@
   "Blog": "公司动态",
   "Gallery": "相册",
   "Contact Us": "联系我们",
-  "EN": "中文",
+  "EN |": "中文 |",
   "Chinese": "中文",
   "English": "英文",
   "Engineering applied to the planning, design, and control of food industrial operations.": "工程应用于食品工业生产的规划、设计和控制。",
@@ -17,12 +17,71 @@
   "E-maiL &nbsp;: &nbsp;s542901895@163.com": "邮箱&nbsp;: &nbsp;s542901895@163.com",
   "Navigation": "导航",
   "About Us": "公司简介",
-  "Zhengzhou Brad Food Machinery Co., Ltd. mainly undertakes the engineering design, installation and commissioning of various oil pretreatment, pre pressing, leaching, refining, separation and deep processing of by-products in grain and oil industry, including process design, equipment design, power distribution design, automatic control design, civil engineering design, building external network design and new process development, etc., and is committed to new products and new processes Developed, has owned a number of proprietary intellectual property rights of patent technology."
+  "Zhengzhou Bright Food Machinery Co., Ltd. mainly undertakes the engineering design, installation and commissioning of various oil pretreatment, pre pressing, leaching, refining, separation and deep processing of by-products in grain and oil industry, including process design, equipment design, power distribution design, automatic control design, civil engineering design, building external network design and new process development, etc., and is committed to new products and new processes Developed, has owned a number of proprietary intellectual property rights of patent technology."
   : "郑州布莱德食品机械有限公司主要承接粮油行业各种油料预处理、预榨、浸出、精炼、分提、副产品深加工的工程设计、安装调试交钥匙工程，包括工艺设计、设备设计、配电设计、自控设计、土建设计、建筑外网设计及新工艺开发等；并致力于新产品、新工艺的开发，已拥有多项自有知识产权的专利技术。已成功应用的有植物油连续物理精炼新工艺及设备、棕榈油、棉籽油分提工艺及设备、连续物理精炼工艺，浓香花生油工艺、浓缩磷脂工艺、生物柴油生产工艺及设备等，成功地解决了油脂生产中的许多难题。",
   "Professional people do professional things .": "闻道有先后，术业有专攻",
   "The new technology and equipment for continuous physical refining of vegetable oil, separation process and equipment for palm oil and cottonseed oil, continuous physical refining process, process and equipment for thick fragrant peanut oil, concentrated phospholipid process and biodiesel production process and equipment have been successfully applied, and many problems in oil production have been successfully solved."
-          : "成功应用的有植物油连续物理精炼新工艺及设备、棕榈油、棉籽油分提工艺及设备、连续物理精炼工艺，浓香花生油工艺、浓缩磷脂工艺、生物柴油生产工艺及设备等，成功地解决了油脂生产中的许多难题。"
+          : "成功应用的有植物油连续物理精炼新工艺及设备、棕榈油、棉籽油分提工艺及设备、连续物理精炼工艺，浓香花生油工艺、浓缩磷脂工艺、生物柴油生产工艺及设备等，成功地解决了油脂生产中的许多难题。",
+  "Products  Display": "项目展示",
+  "Project engineering equipment and workshop Exhibition.": "所合作的项目工程设备及车间展示.",
+  "SCOPE OF BUSINESS": "公司业务范围",
+  "Providing professional services.": "提供专业服务",
+  " · Preparation of feasibility study report.": " · 编写可行性研究报告 ",
+  " · Undertake project design (including process, civil engineering, steel structure, machinery, electrical, automation).": " · 承接工程项目设计（含工艺、土建、钢构、机械、电气、自动化） ",
+  " · Providing professional advice.": " · 提供专业咨询 ",
+  " · Technical consultation and technical problems.": " · 工程技术咨询、技术难题咨询 ",
+  " · Optimization of plant design: optimize the design of the existing process to make the production and operation more competitive. Carry out automatic transformation of the existing production line, intelligent operation, stable and safe operation.": " · 优化工厂设计：对现有工艺优化设计，使生产经营更具竞争力对现有生产线进行自动化改造：智能操作、运转稳定安全 ",
+  " · Training of factory staff: including basic theoretical knowledge, production technology, operation and maintenance technology.": " · 对工厂员工培训： 包括理论基础知识、生产工艺技术、操作维护技术 ",
+  "Provide professional services and complete projects.": "提供专业服务、提供成套工程",
 
+  "Provision f complete works.": "提供成套工程",
+  " · Oil pre pressing and leaching production line.": " · 油料预榨、浸出生产线 ",
+  " · Oil refining and refining production line.": " · 油脂精炼及精制生产线 ",
+  " · Oil separation, winter degreasing and dewaxing production line.": " · 油脂分提、冬化脱脂及脱蜡生产线 ",
+  " · Oil hydrogenation, transesterification and esterification production line.": " · 油脂氢化、酯交换、酯化生产线 ",
+  " · Oil protein and phospholipid production line.": " · 油料蛋白、磷脂生产线 ",
+  " · Biodiesel / fatty acid production line.": " · 生物柴油/脂肪酸生产线",
+  " · Laboratory pilot plant.": " · 实验室中试成套设备 ",
+  " · Transformation and upgrading of old production line.": " · 旧生产线改造升级 ",
+  " · Physical refining of peanut oil.": " · 花生油物理精炼（双温双塔技术） ",
+
+  "Company Management System": "公司管理体系",
+  "Complete quality management system.": "完整的质量管理体系",
+  "Product R & D management system.": "产品研发管理体系",
+  "Equipment manufacturing management system.": "设备制造管理体系",
+  "Process design management system.":"工艺设计管理体系",
+  "On site installation management system.": "现场安装管理体系",
+  "After sales service management system": "售后服务管理体系.",
+  "PROFESSIONAL TEAM": "精英团队",
+  "About Us ": "公司简介 ",
+  "Enterprise Tenet": "企业宗旨",
+  "Focus on training professional team, focusing on the construction of professional high standard model project": "潜心培养专业化团队，专注建设专业化的高标准样板工程",
+  "Enterprise Spirit":"企业精神",
+  "Farsightedness, integrity and win-win situation":"高瞻远瞩，诚信共赢",
+  "Enterprise Vision": "企业愿景",
+  "We should adhere to the characteristic development path, promote the efficient and high-speed development of the company, and strive to build a domestic first-class oil engineering technology company.": "协调发展、人才兴企、科技领先，坚持特色发展道路，推动公司的高效高速发展，努力建设国内一流油脂工程技术公司。",
+
+  "CLASSIC CASES": "经典案例",
+  "High quality, High efficiency, Low cost.": "高品质，高效率，低成本。",
+  "SHANDONG YUHUANG GRAIN & OIL FOOD CO., LTD": "山东玉皇粮油食品有限公司项目介绍",
+  "Production line capacity: 300td corn oil dewaxing refining line, 200td peanut oil physical refining production line. Production equipment: the centrifuge adopts the latest model of weissphalia, Germany; the vacuum pump adopts German ana vacuum pump; the high-pressure boiler adopts Geka high-pressure boiler, and the computer control system adopts the American GE PLC full computer control system.":
+"\n 玉皇粮油项目精炼车间采用国际先进技术，生产线产能：300TD玉米油脱蜡精炼生产线、200TD花生油物理精炼生产线。\n车间生产线主要设备采用国外进口设备：离心机采用德国韦斯伐利亚最新机型；真空泵采用德国ANA真空泵；高压锅炉采用GEKA高压锅炉，所有泵类采用国内一流合资品牌，电脑控制系统采用美国GE PLC全电脑控制系统。",
+  "The workshop has high degree of automation, low production consumption and stable product quality, which belongs to the advanced level in the industry.":"车间整体自动化程度高，生产消耗低，生产成本属业内先进水平，产品质量稳定，市场竞争力强。",
+  "Building High Tech Enterprises": "打造高新技术企业",
+  "Imported equipment and domestic first-class joint venture brand": "国外进口设备&国内一流合资品牌",
+  "Project introduction of JIANGXI TIANYU  OIL CO., LTD": "江西天玉油脂有限公司项目介绍",
+  "Jiangxi Tianyu project construction capacity: 200td rice bran oil physical refining production line.The workshop production line adopts high pressure boiler imported from Italy and vacuum pump imported from Germany."
+  : "\n 江西天玉项目承建产能：200TD米糠油物理精炼生产线。\n \n车间生产线采用国外进口意大利进口高压锅炉，ANA德国进口真空泵。",
+  "The overall automation of the workshop is high, and the most advanced physical deacidification process is adopted in the processing process, which makes the product quality stable and energy consumption low.":
+  "\n车间整体自动化程度高，加工工艺采用国内最先进的物理脱酸工艺，使得产品质量稳定，能耗低。",
+  "Gallery": "相册",
+  "Contact": "联系我们",
+  "First Name": "名字",
+  "Second Name": "称呼",
+  "Email Id": "邮箱",
+  "Message..": "请留言:",
+  "SUBMIT": "提交",
+  "CLEAR": "取消"
 
 
 

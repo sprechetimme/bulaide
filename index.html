@@ -61,7 +61,11 @@
 							// You can also use "$(window).load(function() {"
 								$(function () {
 								// Slideshow 4
-									$(".header").load("reset/header.html");
+
+									$(".header").load("reset/header.html",function (){
+										$("li:first").removeClass("active");
+										$("#index").addClass("active");
+									});
 									$(".footer").load("reset/footer.html");
 									$("#slider3").responsiveSlides({
 									auto: true,
@@ -84,20 +88,20 @@
 								<ul class="rslides" id="slider3">
 									<li>
 										<div class="banner2">
-											<h2>企业宗旨</h2>
-											<p>潜心培养专业化团队，专注建设专业化的高标准样板工程</p>
+											<h2 lang>Enterprise Tenet</h2>
+											<p lang>Focus on training professional team, focusing on the construction of professional high standard model project</p>
 										</div>
 									</li>
 									<li>
 										<div class="banner1">
-											<h2>企业精神</h2>
-											<p>高瞻远瞩，诚信共赢 </p>
+											<h2 lang>Enterprise Spirit</h2>
+											<p lang>Farsightedness, integrity and win-win situation</p>
 										</div>
 									</li>
 									<li>
 										<div class="banner-slide">
-											<h2>企业愿景</h2>
-											<p>协调发展、人才兴企、科技领先，坚持特色发展道路，推动公司的高效高速发展，努力建设国内一流油脂工程技术公司。</p>
+											<h2 lang>Enterprise Vision</h2>
+											<p lang>We should adhere to the characteristic development path, promote the efficient and high-speed development of the company, and strive to build a domestic first-class oil engineering technology company.</p>
 										</div>
 									</li>
 						</ul>
@@ -118,11 +122,11 @@
 			<div class="about-main">
 				<div class="about-top">
 					<div class="col-md-5 about-top-left">
-						<img src="images/a1.jpg" class="img-responsive" alt=""/>
+						<img src="images/about.jpg" class="img-responsive" alt=""/>
 					</div>
 					<div class="col-md-7 about-top-right">
 						<h4 lang>Professional people do professional things .</h4>
-						<p lang>Zhengzhou Brad Food Machinery Co., Ltd. mainly undertakes the engineering design, installation and commissioning of various oil pretreatment, pre pressing, leaching, refining, separation and deep processing of by-products in grain and oil industry, including process design, equipment design, power distribution design, automatic control design, civil engineering design, building external network design and new process development, etc., and is committed to new products and new processes Developed, has owned a number of proprietary intellectual property rights of patent technology.</p>
+						<p lang>Zhengzhou Bright Food Machinery Co., Ltd. mainly undertakes the engineering design, installation and commissioning of various oil pretreatment, pre pressing, leaching, refining, separation and deep processing of by-products in grain and oil industry, including process design, equipment design, power distribution design, automatic control design, civil engineering design, building external network design and new process development, etc., and is committed to new products and new processes Developed, has owned a number of proprietary intellectual property rights of patent technology.</p>
 						<p lang>The new technology and equipment for continuous physical refining of vegetable oil, separation process and equipment for palm oil and cottonseed oil, continuous physical refining process, process and equipment for thick fragrant peanut oil, concentrated phospholipid process and biodiesel production process and equipment have been successfully applied, and many problems in oil production have been successfully solved.</p>
 					</div>
 					<div class="clearfix"></div>
@@ -131,17 +135,16 @@
 		</div>
 	</div>
 	<div class="container">
-		<h3>Industrial Technologies</h3>
-		<h5>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</h5>
+		<h3 lang>Products  Display</h3>
+		<h5 lang>Project engineering equipment and workshop Exhibition.</h5>
 <div id="products" class="products">
 				<div class="col-md-4 product-grid">
-						<a href="images/a1.jpg" class="b-link-stripe b-animate-go1   swipebox"  title="">
-							<img src="images/a1.jpg" alt=" " class="img-responsive" />
+						<a href="images/about.jpg" class="b-link-stripe b-animate-go1   swipebox" title="">
+							<img src="images/a1.png" alt=" " class="img-responsive" />
 						</a>
 						<div class="project-grid-text1">
-							<h4> voluptatibus maiores alias perferendis</h4>
-							<p> Itaque earum rerum hic tenetur a sapiente delectus, 
-								ut aut reiciendis voluptatibus</p>
+							<h4> 结晶罐吊装 </h4>
+							<p>  </p>
 						</div>
 				</div>
 				<div class="col-md-4 product-grid">	
@@ -149,19 +152,17 @@
 							<img src="images/a2.jpg" alt=" " class="img-responsive" />
 						</a>
 						<div class="project-grid-text1">
-							<h4> voluptatibus maiores alias perferendis</h4>
-							<p> Itaque earum rerum hic tenetur a sapiente delectus, 
-								ut aut reiciendis voluptatibus</p>
+							<h4> 山东玉皇300TPD玉米油精炼项目 </h4>
+							<p>  </p>
 						</div>
 				</div>
 				<div class="col-md-4 product-grid">
-						<a href="images/a3.jpg" class="b-link-stripe b-animate-go1   swipebox"  title="">
+						<a href="images/a3.jpg" class="b-link-stripe b-animate-go1   swipebox" title="">
 							<img src="images/a3.jpg" alt=" " class="img-responsive" />
 						</a>
 						<div class="project-grid-text1">
-							<h4> voluptatibus maiores alias perferendis</h4>
-							<p> Itaque earum rerum hic tenetur a sapiente delectus, 
-								ut aut reiciendis voluptatibus</p>
+							<h4> 离心机工序段 </h4>
+							<p>   </p>
 						</div>
 					</div>
 				<div class="col-md-4 product-grid">
@@ -169,19 +170,17 @@
 							<img src="images/a4.jpg" alt=" " class="img-responsive" />
 						</a>
 						<div class="project-grid-text1">
-							<h4> voluptatibus maiores alias perferendis</h4>
-							<p> Itaque earum rerum hic tenetur a sapiente delectus, 
-								ut aut reiciendis voluptatibus</p>
+							<h4> 脱臭塔和脱酸塔  </h4>
+							<p> </p>
 						</div>
 				</div>
 				<div class="col-md-4 product-grid">	
-						<a href="images/a5.jpg" class="b-link-stripe b-animate-go1   swipebox"  title="">
-							<img src="images/a5.jpg" alt=" " class="img-responsive" />
+						<a href="images/a5.png" class="b-link-stripe b-animate-go1   swipebox" title="">
+							<img src="images/a5.png" alt=" " class="img-responsive" />
 						</a>
 						<div class="project-grid-text1">
-							<h4> voluptatibus maiores alias perferendis</h4>
-							<p> Itaque earum rerum hic tenetur a sapiente delectus, 
-								ut aut reiciendis voluptatibus</p>
+							<h4> 江西天玉200T/D米糠油精炼项目  </h4>
+							<p>  </p>
 						</div>
 					</div>
 				<div class="col-md-4 product-grid">
@@ -189,9 +188,8 @@
 							<img src="images/a6.jpg" alt=" " class="img-responsive" />
 						</a>
 						<div class="project-grid-text1">
-							<h4> voluptatibus maiores alias perferendis</h4>
-							<p> Itaque earum rerum hic tenetur a sapiente delectus, 
-								ut aut reiciendis voluptatibus </p>
+							<h4> 气动底阀安装  </h4>
+							<p>  </p>
 						</div>
 					</div>
 					<link rel="stylesheet" href="css/swipebox.css">
@@ -207,8 +205,8 @@
 	</div>
 <div class="features">
 	<div class="container">
-		<h3>Best Industrial Products</h3>
-		<h5>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</h5>
+		<h3 lang>CLASSIC CASES</h3>
+		<h5 lang>High quality, High efficiency, Low cost.</h5>
 		<div class="features-info">
 			<div class="col-md-6 features-left">
 				<a href="single.html"class="mask">
@@ -216,9 +214,11 @@
 				</a>
 			</div>
 			<div class="col-md-6 features-right">
-				<h4>Best Industrial Product</h4>
-				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-					<a href="about.thml" class="hvr-bounce-to-bottom">Read More</a>
+				<h4 lang>SHANDONG YUHUANG GRAIN & OIL FOOD CO., LTD</h4>
+				<p lang style="white-space: pre-line;">Production line capacity: 300td corn oil dewaxing refining line, 200td peanut oil physical refining production line. Production equipment: the centrifuge adopts the latest model of weissphalia, Germany; the vacuum pump adopts German ana vacuum pump; the high-pressure boiler adopts Geka high-pressure boiler, and the computer control system adopts the American GE PLC full computer control system.</p>
+				<p lang style="white-space: pre-line;">The workshop has high degree of automation, low production consumption and stable product quality, which belongs to the advanced level in the industry.</p>
+
+<!--				<a href="single.html" class="hvr-bounce-to-bottom">Read More</a>-->
 			</div>
 			<div class="clearfix"> </div>
 	  </div>
@@ -226,13 +226,14 @@
 </div>
 <div class="features1">
 	<div class="container">
-		<h3>Technological Development In Industry</h3>
-		<h5>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</h5>
+		<h3 lang>Building High Tech Enterprises</h3>
+		<h5 lang>Imported equipment and domestic first-class joint venture brand</h5>
 		<div class="features-info1">
 			<div class="col-md-6 features-right1">
-				<h4>Best Industrial Product</h4>
-				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-					<a href="about.thml" class="hvr-bounce-to-bottom">Read More</a>
+				<h4 lang>Project introduction of JIANGXI TIANYU  OIL CO., LTD</h4>
+				<p lang style="white-space: pre-line;">Jiangxi Tianyu project construction capacity: 200td rice bran oil physical refining production line.The workshop production line adopts high pressure boiler imported from Italy and vacuum pump imported from Germany.</p>
+				<p lang style="white-space: pre-line;">The overall automation of the workshop is high, and the most advanced physical deacidification process is adopted in the processing process, which makes the product quality stable and energy consumption low.</p>
+<!--				<a href="single.html" class="hvr-bounce-to-bottom">Read More</a>-->
 			</div>
 						<div class="col-md-6 features-left1">
 							<a href="single.html"class="mask">

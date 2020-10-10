@@ -2,16 +2,26 @@ var dict = {};
 
 $(function() {
     registerWords();
-    setLanguage("en");
 
+     var lang = getCookie("lang");
+
+      if(lang == null) {
+          setLanguage("en");
+      }else {
+          setLanguage(lang);
+      }
+    //setLanguage("en");
     $("#enBtn").bind("click", function() {
 
         setLanguage("en");
+        window.location.href=window.location.href;
     });
 
     $("#zhBtn").bind("click", function() {
 
         setLanguage("cn");
+        window.location.href=window.location.href;
+
     });
 
     $("#applyBtn").bind("click", function() {
@@ -44,6 +54,7 @@ function setCookie(cookie) {
 function translate() {
     loadDict();
 
+
     $("[lang]").each(function() {
         switch (this.tagName.toLowerCase()) {
             case "input":
@@ -60,7 +71,13 @@ function __tr(src) {
 }
 
 function loadDict() {
-    var lang = (getCookieVal("lang") || "en");
+    var lang = getCookieVal("lang");
+
+    if(lang == null){
+        lang ="en";
+    }
+
+
 
     $.ajax({
         async: false,
@@ -74,6 +91,7 @@ function loadDict() {
 
 function registerWords() {
     $("[lang]").each(function() {
+
         switch (this.tagName.toLowerCase()) {
             case "input":
                 $(this).attr("lang", $(this).val());
@@ -83,3 +101,13 @@ function registerWords() {
         }
     });
 }
+function getCookie(name) {
+    var arr, reg = new RegExp("(^| )" + name + "=([^;]*)(;|$)");
+
+    if (arr = document.cookie.match(reg))
+
+        return unescape(arr[2]);
+    else
+        return null;
+}
+
