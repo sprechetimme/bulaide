@@ -73,16 +73,16 @@
 			<div class="contact-main">
 				<div class="contact-top">
 					<div class="col-md-6 contact-top-left">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d92622.7729403269!2d-112.03370705!3d43.49270405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1434188003159" frameborder="0" style="border:0"></iframe>
+<!--						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d92622.7729403269!2d-112.03370705!3d43.49270405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1434188003159" frameborder="0" style="border:0"></iframe>-->
 					</div>
 					<div class="col-md-6 contact-top-right">
 						<div class="contact-textarea">
-							<form>
-								<input lang type="text" value="First Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'First Name';}"/>
-								<input lang type="text" value="Second Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Second Name';}"/>
-								<input lang type="text" value="Email Id" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email Id';}"/>
-								<textarea lang value="Message.." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message..';}">Message..</textarea>
-								<input type="submit" value="SUBMIT" lang >
+							<form id="message" name="message">
+								<input lang name="name" type="text" value="First Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'First Name';}"/>
+								<input lang name="secondName" type="text" value="Second Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Second Name';}"/>
+								<input lang name="eMail" type="text" value="Email Id" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email Id';}"/>
+								<textarea lang name="Message" value="Message.." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message..';}">Message..</textarea>
+								<input type="button" onclick="LeaveMessage()" value="SUBMIT" lang >
 								<input type="reset" onclick="location.reload()" value="CLEAR" lang>
 							</form>
 						</div>
@@ -99,6 +99,7 @@
 		 <!---End-container---->
 		 <!---->
 <script type="text/javascript">
+
 		$(document).ready(function() {
 			$(".header").load("reset/header.html",function (){
 				$("li:first").removeClass("active");
@@ -115,6 +116,16 @@
 				*/
 		$().UItoTop({ easingType: 'easeOutQuart' });
 });
+		function 	LeaveMessage(){
+			var name = $("input[name='name']").val();
+			var secondName = $("input[name='secondName']").val();
+			var eMail = $("input[name='eMail']").val();
+			var Message = $("textarea[name='Message']").val();
+
+			var str = JSON.stringify( {name:name , secondName : secondName , eMail : eMail,Message:Message} );
+			alert(str);
+			//   ip+port/bulaide/contact/message
+		}
 </script>
 <a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 <!----> 
