@@ -1,5 +1,11 @@
 var dict = {};
 
+var urlprd = "http://39.99.129.115";
+var urldev = "http://127.0.0.1";
+
+function getUrl(){
+    return urlprd;
+}
 $(function() {
     registerWords();
 

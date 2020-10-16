@@ -125,6 +125,32 @@
 
 			var str = JSON.stringify( {name:name , secondName : secondName , eMail : eMail,Message:Message} );
 			alert(str);
+
+			var url = getUrl();
+			alert(url);
+			$.ajax({
+				headers : {
+					Accept: "application/json; charset=utf-8",
+					'token' : '9B4BF951093F1F1A40BB2DAAA30B3838'
+				},
+				url: url +":8088"+ "/contact/message",
+				type: 'POST',
+				async: true,
+				data: str,
+				timeout: 3000,
+				change: true,
+				dataType: 'json',
+				beforeSend: function(xhr){},
+				success: function(data, textStatus, jqXHR){
+					console.log(data);
+
+				},
+				error: function(xhr, textStatus){
+					console.log(xhr);
+
+				},
+				complete: function(){}
+			})
 			//   ip+port/bulaide/contact/message
 		}
 </script>
