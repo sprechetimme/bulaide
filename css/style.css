@@ -13,7 +13,12 @@ body a {
     -ms-transition: 0.5s all;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0;
 }
 
@@ -26,9 +31,15 @@ ul {
     padding: 0;
 }
 
+
 /*--header--*/
+
+.flex {
+    display: flex;
+}
+
 .logo {
-    float: left;
+    flex: 3;
     margin-top: 15px;
 }
 
@@ -50,6 +61,9 @@ ul {
 }
 
 .logo a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
     text-decoration: none;
 }
 
@@ -64,9 +78,8 @@ ul {
 }
 
 .logo a img {
-    width: 10.27%;
+    width: 140%;
     z-index: 9999;
-    position: absolute;
 }
 
 .banner-bottom-strip {
@@ -81,8 +94,7 @@ ul {
 }
 
 .navigation {
-    width: 64%;
-    float: right;
+    flex: 9;
     margin-top: 25px;
 }
 
@@ -90,18 +102,18 @@ ul {
     padding: 0;
 }
 
-.navbar-default .navbar-nav > li > a {
+.navbar-default .navbar-nav>li>a {
     color: #fff;
 }
 
-.nav > li > a {
+.nav>li>a {
     font-family: 'Ubuntu', sans-serif;
     margin: 0 29px !important;
     padding: 0;
     font-size: 1.3em;
 }
 
-.nav > li > a:hover {
+.nav>li>a:hover {
     color: #0acf66 !important;
     transition: 1s all;
     -webkit-transition: 1s all;
@@ -114,22 +126,24 @@ ul.nav.navbar-nav li a.active {
     color: #0acf66 !important;
 }
 
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
     color: #0acf66;
     background: none;
 }
 
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
     color: #0acf66;
     background: none;
 }
 
-.navbar-nav > li {
+.navbar-nav>li {
     display: inline-block !important;
-
 }
 
-.drop-down-content > li > a {
+.drop-down-content>li>a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
     text-align: center;
@@ -141,10 +155,9 @@ ul.nav.navbar-nav li a.active {
     position: absolute;
     z-index: 1;
     background: #3F67BF;
-
 }
 
-.drop-down-content li:hover > a {
+.drop-down-content li:hover>a {
     background-color: #ff9c01;
 }
 
@@ -170,7 +183,9 @@ ul.nav.navbar-nav li a.active {
     border-top: 0 !important;
 }
 
+
 /*--slider end here--*/
+
 .banner {
     padding: 0 !important;
 }
@@ -212,7 +227,9 @@ ul.nav.navbar-nav li a.active {
     margin: 1em 0 2em;
 }
 
+
 /*----Slider Part starts Here-----*/
+
 #slider3 {
     box-shadow: none;
     -moz-box-shadow: none;
@@ -326,15 +343,18 @@ ul.nav.navbar-nav li a.active {
     background: url(../images/slider-icon.png) no-repeat -59px 0px;
 }
 
-#slider3-pager a, #slider4-pager a {
+#slider3-pager a,
+#slider4-pager a {
     display: inline-block;
 }
 
-#slider3-pager span, #slider4-pager span {
+#slider3-pager span,
+#slider4-pager span {
     float: left;
 }
 
-#slider3-pager span, #slider4-pager span {
+#slider3-pager span,
+#slider4-pager span {
     width: 100px;
     height: 1em;
     background: #fff;
@@ -343,17 +363,20 @@ ul.nav.navbar-nav li a.active {
     opacity: 0.6;
 }
 
-#slider3-pager .rslides_here a, #slider4-pager .rslides_here a {
+#slider3-pager .rslides_here a,
+#slider4-pager .rslides_here a {
     background: #FFF;
     border-radius: 30em;
     opacity: 1;
 }
 
-#slider3-pager a, #slider4-pager a {
+#slider3-pager a,
+#slider4-pager a {
     padding: 0;
 }
 
-#slider3-pager li, #slider4-pager li {
+#slider3-pager li,
+#slider4-pager li {
     display: inline-block;
 }
 
@@ -402,7 +425,9 @@ ul.nav.navbar-nav li a.active {
     }
 }
 
+
 /*----*/
+
 .callbacks_tabs a {
     visibility: hidden;
 }
@@ -424,7 +449,9 @@ ul.nav.navbar-nav li a.active {
     background: #E4BB07;
 }
 
+
 /*--//slider end here--*/
+
 .welcome {
     padding: 3em 0 0;
 }
@@ -515,7 +542,9 @@ ul.nav.navbar-nav li a.active {
     margin-bottom: 5em;
 }
 
+
 /*--features--*/
+
 .features {
     padding: 3em 0 4em;
 }
@@ -635,7 +664,9 @@ img.zoom-img:hover {
     overflow: hidden;
 }
 
+
 /* Bounce To Bottom */
+
 .hvr-bounce-to-bottom {
     display: inline-block;
     vertical-align: middle;
@@ -675,20 +706,28 @@ img.zoom-img:hover {
     padding: 10px 13px;
 }
 
-.hvr-bounce-to-bottom:hover, .hvr-bounce-to-bottom:focus, .hvr-bounce-to-bottom:active {
+.hvr-bounce-to-bottom:hover,
+.hvr-bounce-to-bottom:focus,
+.hvr-bounce-to-bottom:active {
     color: white;
     text-decoration: none;
 }
 
-.hvr-bounce-to-bottom:hover:before, .hvr-bounce-to-bottom:focus:before, .hvr-bounce-to-bottom:active:before {
+.hvr-bounce-to-bottom:hover:before,
+.hvr-bounce-to-bottom:focus:before,
+.hvr-bounce-to-bottom:active:before {
     -webkit-transform: scaleY(1);
     transform: scaleY(1);
     -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
     transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 }
 
+
 /*--/features--*/
+
+
 /*--team--*/
+
 h3.team {
     margin-bottom: 1em;
     margin-left: .4em;
@@ -725,7 +764,9 @@ h3.team {
     font-size: .95em;
 }
 
+
 /*--/team--*/
+
 .testimonials-quote {
     background: url(../images/quote-image1.jpg) center center;
     background-size: cover;
@@ -751,7 +792,9 @@ h3.team {
     line-height: 1.3em;
 }
 
+
 /*--footer--*/
+
 .footer {
     border-top: 1.5px solid #eee;
     padding: 4em 0;
@@ -763,7 +806,8 @@ h3.team {
     padding: 0;
 }
 
-.get_in_touch h3, .ftr_navi h3 {
+.get_in_touch h3,
+.ftr_navi h3 {
     font-family: 'Ubuntu', sans-serif;
     letter-spacing: 2px;
     font-size: 1.4em;
@@ -788,7 +832,9 @@ h3.team {
     font-size: 1em;
 }
 
-.ftr_navi ul li a:hover, .get_in_touch a:hover, .ftr-logo p a:hover {
+.ftr_navi ul li a:hover,
+.get_in_touch a:hover,
+.ftr-logo p a:hover {
     text-decoration: none;
     color: #fff;
 }
@@ -830,18 +876,32 @@ h3.team {
     color: #fff;
 }
 
+
 /*--/footer--*/
+
+
 /*--inner-pages--*/
+
+
 /*--about-page--*/
+
 .banner5 {
     min-height: 140px;
 }
 
-.abouts, .services, .blog, .gallery, .contact {
+.abouts,
+.services,
+.blog,
+.gallery,
+.contact {
     padding: 4em 0;
 }
 
-.abouts h3, .services h3, .blog h3, .gallery h3, .contact h3 {
+.abouts h3,
+.services h3,
+.blog h3,
+.gallery h3,
+.contact h3 {
     text-align: center;
     font-size: 3em;
     color: #3f67bf;
@@ -967,8 +1027,12 @@ h4.team {
     margin: .5em 0;
 }
 
+
 /*--/about-page--*/
+
+
 /*--trypography-page--*/
+
 .grid_4 {
     background: #FFF;
     padding: 0em 0em 1em 3em;
@@ -1029,16 +1093,32 @@ section#tables {
     font-size: 1.9em;
 }
 
-.table td, .table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+.table td,
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
     padding: 11px 0px 15px 0px !important;
 }
 
-.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+.table>thead>tr>th,
+.table>tbody>tr>th,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>tbody>tr>td,
+.table>tfoot>tr>td {
     font-size: 0.8em;
     color: #999;
 }
 
-.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+.table>thead>tr>th,
+.table>tbody>tr>th,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>tbody>tr>td,
+.table>tfoot>tr>td {
     border-top: none !important;
 }
 
@@ -1046,7 +1126,7 @@ section#tables {
     color: #0ACF66;
 }
 
-.tab-content > .active {
+.tab-content>.active {
     display: block;
     visibility: visible;
 }
@@ -1127,11 +1207,16 @@ code {
     background-color: #757575;
 }
 
-.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+.pagination>.active>a,
+.pagination>.active>span,
+.pagination>.active>a:hover,
+.pagination>.active>span:hover,
+.pagination>.active>a:focus,
+.pagination>.active>span:focus {
     background-color: #5bb2fc;
-!important;
+    !important;
     border-color: #5bb2fc;
-!important;
+    !important;
 }
 
 .grid_3 p {
@@ -1180,7 +1265,9 @@ code {
     font-size: 0.85em;
 }
 
+
 /*--common style--*/
+
 .grid {
     position: relative;
     clear: both;
@@ -1224,7 +1311,7 @@ code {
 }
 
 .grid figure figcaption,
-.grid figure figcaption > a {
+.grid figure figcaption>a {
     position: absolute;
     top: 0;
     left: 0;
@@ -1232,9 +1319,13 @@ code {
     height: 100%;
 }
 
+
 /* Anchor will cover the whole item by default */
+
+
 /* For some effects it will show as a button */
-.grid figure figcaption > a {
+
+.grid figure figcaption>a {
     z-index: 1000;
     text-indent: 200%;
     white-space: nowrap;
@@ -1257,7 +1348,10 @@ code {
     margin: 0;
 }
 
+
 /***** Hera *****/
+
+
 /*-----------------*/
 
 figure.effect-hera {
@@ -1354,11 +1448,15 @@ figure.effect-hera:hover h2 {
 
 figure.effect-hera:hover p i:empty {
     -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0); /* just because it's stronger than nth-child */
+    transform: translate3d(0, 0, 0);
+    /* just because it's stronger than nth-child */
     opacity: 1;
 }
 
-a i.download, a i.heart, a i.service, a i.share {
+a i.download,
+a i.heart,
+a i.service,
+a i.share {
     width: 32px;
     height: 32px;
     display: inline-block;
@@ -1410,9 +1508,15 @@ a#myTabDrop1 {
     left: 16px !important;
 }
 
+
 /*--/typography-page--*/
+
+
 /*--blog & single-pages--*/
+
+
 /*--blog--*/
+
 .blog-left {
     float: left;
     border-right: 1px solid #B6B3B3;
@@ -1460,14 +1564,17 @@ ul.men-grid li {
     text-decoration: none;
     font-size: 1.3em;
     color: #3f67bf;
-
 }
 
-.top-blog a.fast:hover, .top-blog p a:hover, ul.popular li a:hover, a.more-dummy:hover {
+.top-blog a.fast:hover,
+.top-blog p a:hover,
+ul.popular li a:hover,
+a.more-dummy:hover {
     color: #3f67bf;
 }
 
-.pagination > .active > a, .pagination > .active > a:hover {
+.pagination>.active>a,
+.pagination>.active>a:hover {
     background: #3f67bf;
     border-color: #3f67bf;
 }
@@ -1476,7 +1583,7 @@ ul.men-grid li {
     margin: 0;
 }
 
-.pagination > li > a:hover {
+.pagination>li>a:hover {
     color: #FFFFFF;
     border-color: #0ACF66;
     background: #0ACF66;
@@ -1498,8 +1605,12 @@ p.sed {
     margin: 0.5em 0 1em;
 }
 
+
 /*--//blog--*/
+
+
 /*--single--*/
+
 .single-middle h3 {
     font-size: 2.5em;
     color: #2d2d2d;
@@ -1511,7 +1622,8 @@ p.sed {
     padding: 0em 0 4em;
 }
 
-.single-bottom input[type="text"], .single-bottom textarea {
+.single-bottom input[type="text"],
+.single-bottom textarea {
     width: 100%;
     padding: 1em;
     background: none;
@@ -1629,9 +1741,15 @@ ul.grid-part {
     padding-top: 3em;
 }
 
+
 /*--//single--*/
+
+
 /*--/blog & single-pages--*/
+
+
 /*-- gallery --*/
+
 .works-section {
     padding: 4em 0;
     background: #f5f5f5
@@ -1651,13 +1769,14 @@ div#portfolio {
     padding-top: 2.5em;
 }
 
+
 /* Default Skin */
+
 .wmuSliderPagination a {
     display: block;
     text-indent: -9999px;
     width: 15px;
     height: 15px;
-
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -1667,6 +1786,7 @@ div#portfolio {
 
 
 /*-----------------------------------------------------------------------------------*/
+
 .b-link-stripe {
     position: relative;
     display: inline-block;
@@ -1697,9 +1817,13 @@ div#portfolio {
     -webkit-transition: all 0.5s linear;
 }
 
+
 /*-----------------------------------------------------------------------------------*/
+
+
 /*	Animation effects
 /*-----------------------------------------------------------------------------------*/
+
 .b-animate-go {
     text-decoration: none;
 }
@@ -1720,11 +1844,12 @@ div#portfolio {
 }
 
 .b-animate img {
-
     display: -webkit-inline-box;
 }
 
+
 /* lt-ie9 */
+
 .b-animate-go:hover .b-animate {
     visibility: visible;
 }
@@ -1826,7 +1951,9 @@ div#portfoliolist {
     text-transform: uppercase;
 }
 
+
 /* Self Clearing Goodness */
+
 .container:after {
     content: "\0020";
     display: block;
@@ -1890,8 +2017,12 @@ div#portfoliolist {
     opacity: .5;
 }
 
+
 /*-- /gallery --*/
+
+
 /*-- contact --*/
+
 .contact {
     padding: 4em 0em;
 }
@@ -1995,9 +2126,15 @@ div#portfoliolist {
     -o-transition: 0.5s all;
 }
 
+
 /*-- //contact --*/
+
+
 /*--/inner-pages--*/
+
+
 /*--to-top--*/
+
 #toTop {
     display: none;
     text-decoration: none;
@@ -2012,189 +2149,159 @@ div#portfoliolist {
     background: url("../images/to-top1.png") no-repeat 0px 0px;
 }
 
+
 /*--/to-top--*/
+
+
 /*----responsive-menu-start--*/
+
 @media (max-width: 1024px) {
-    .nav > li > a {
+    .nav>li>a {
         margin: 0 18px !important;
     }
-
     .banner-slide {
         min-height: 350px;
     }
-
     .banner1 {
         min-height: 350px;
     }
-
     .banner2 {
         min-height: 350px;
     }
-
     .banner-title h2 {
         font-size: 4em;
         padding-top: 2em;
         margin-left: .9em;
     }
-
     .banner-title p {
         width: 58%;
         margin-left: 2.9em;
     }
-
     .banner5 {
         min-height: 100px;
     }
-
     .product-grd {
         margin: 0;
     }
-
     .features-left img {
         height: 303px;
     }
-
     .features-left1 img {
         height: 308px;
     }
-
     .header-nav {
         padding: 0em 0;
     }
-
     .testimonials-quote h5 {
         font-size: 1.8em;
     }
-
     .testimonials-text {
         padding-top: 6em;
         padding-left: 3em;
         min-height: 250px;
     }
-
     .testimonials-quote {
         min-height: 235px;
     }
-
     .top-blog {
         width: 89%;
     }
-
     .blog-left {
         padding-right: 1em;
     }
-
     .team-grid1 img {
         width: 100%;
     }
-
     .contact-textarea input[type="submit"] {
         width: 48%;
         margin: 10px 8px 0px 0px;
     }
-
     .products {
         padding: 2em 0;
     }
-
     .testimonials {
         margin: 0em 0 3em;
     }
-
     .ftr-logo a h3 {
         font-size: 2.7em;
     }
-
     .footer {
         padding: 3em 0;
     }
-
-    .abouts, .services, .blog, .gallery, .contact {
+    .abouts,
+    .services,
+    .blog,
+    .gallery,
+    .contact {
         padding: 2em 0;
     }
 }
 
 @media (max-width: 768px) {
-    .nav > li > a {
+    .nav>li>a {
         margin: 0 9px !important;
         font-size: 1.2em;
     }
-
     .banner-title h2 {
         font-size: 3em;
         padding-top: 2.5em;
         margin-left: 1.2em;
     }
-
     .banner-title p {
         width: 66%;
         font-size: 1.2em;
         margin-left: 3.1em;
     }
-
     .banner-bottom-strip p {
         font-size: 1.2em;
     }
-
     .product-grd {
         margin: 0;
         width: 31.3%;
         float: left;
         margin-left: 1.6%;
     }
-
     .features-left {
         padding-left: 0;
     }
-
     .features-right {
         width: 50%;
         float: left;
     }
-
     .features-left {
         width: 50%;
         float: left;
     }
-
     .features-right p {
         overflow: hidden;
         height: 130px;
     }
-
     .features-right1 p {
         overflow: hidden;
         height: 130px;
     }
-
     .features-right1 {
         width: 50%;
         float: left;
     }
-
     .features-left1 img {
         width: 100%;
         float: left;
         height: 263px;
     }
-
     .features-left img {
         height: 258px;
     }
-
     .testimonials-text {
         padding-left: 5em;
     }
-
     .testimonials-quote {
         min-height: 168px;
     }
-
     .about-top-left {
         width: 50%;
         float: left;
     }
-
     .team-grid {
         width: 50%;
         float: left;
@@ -2202,193 +2309,154 @@ div#portfoliolist {
         padding-right: 15px;
         margin-bottom: 2em;
     }
-
     .testimonials-text {
         min-height: 200px;
         padding-top: 5em;
     }
-
     .banner-bottom-strip {
         padding: 15px 0;
     }
-
     .team-grid1 img {
         width: 100%;
     }
-
     .team-grid1 {
         width: 50%;
         float: left;
         padding-left: 15px;
         padding-right: 15px;
     }
-
     .top-blog {
         width: 84%;
     }
-
     .team-grid1 p {
         margin-bottom: 2em;
     }
-
     .ftr {
         width: 50%;
         float: left;
         margin-bottom: 2em;
         padding-left: 7px;
     }
-
     .ftr-logo {
         margin-top: 18em;
     }
-
     .products {
         padding: 2em 0;
     }
-
     .features-info1 {
         margin-top: 2em;
     }
-
     .features-info1 {
         margin-top: 2em;
     }
-
     .team-work {
         margin-bottom: 1em;
         margin-top: 0;
     }
-
     .testimonials {
         margin: 1em 0 3em;
     }
-
     .features-info {
         margin-top: 2em;
     }
-
     .logo a h1 {
         font-size: 2.6em;
     }
-
     .logo {
         margin-top: 19px;
     }
-
     .features1 {
         padding: 0em 0 4em;
     }
-
     .features {
         padding: 1em 0 4em;
     }
-
     .features1 {
         padding: 0em 0 2em;
     }
-
     h3.team {
         margin-bottom: .7em;
     }
-
     .about-top-right h4 {
         letter-spacing: 0;
         font-size: 1.1em;
         line-height: 1.8em;
     }
-
-    .abouts, .services, .blog, .gallery, .contact {
+    .abouts,
+    .services,
+    .blog,
+    .gallery,
+    .contact {
         padding: 2em 0;
     }
-
     .single-inline {
         padding-top: 2em;
     }
-
     .about-top {
         margin-top: 2em;
     }
-
     .grid_4 {
         margin-top: 2em;
         padding: 0em 0em 1em 1em;
     }
-
     .grid_5 {
         padding: 1em 0em 1em 1em;
     }
-
     section#tables {
         padding: 1em 0em 1em 1em;
     }
-
     .moments-left {
         width: 33%;
         float: left;
     }
-
     .contact-top-left iframe {
         height: 300px;
     }
-
     .contact-top-right {
         margin-top: 2em;
     }
-
     .label {
         font-size: 61%;
     }
-
     .single {
         padding: 0;
     }
-
-    .single-bottom input[type="text"], .single-bottom textarea {
+    .single-bottom input[type="text"],
+    .single-bottom textarea {
         margin-bottom: 10px;
     }
-
     .single-bottom textarea {
         margin: 0;
         width: 100%;
     }
-
     .comment {
         padding: 0;
     }
-
     .moments-bottom {
         margin-left: 1.2em;
     }
-
     .service_info {
         margin-top: 2em;
     }
-
     .single-bottom input[type="submit"] {
         margin: .5em 0.8em 0 0;
     }
-
     .single-bottom {
         padding: 0em 0 3em;
     }
-
     .product-grid {
         width: 50%;
         float: left;
     }
-
     .single-bottom input[type="submit"] {
         width: 13%;
     }
-
     .contact-textarea input[type="submit"] {
         margin: 10px 16px 0px 0px;
     }
-
     .footer {
         padding: 2em 0 1em;
     }
-
     .contact-top {
         padding-top: 2em;
     }
@@ -2411,110 +2479,86 @@ div#portfoliolist {
         font-size: 2.5em;
         margin-left: 0.4em;
     }
-
     .banner-title p {
         width: 100%;
         font-size: 1.2em;
         margin-left: .9em;
     }
-
     .banner1 {
         min-height: 270px;
     }
-
     .banner-slide {
         min-height: 270px;
     }
-
     .banner2 {
         min-height: 270px;
     }
-
     .banner-bottom-strip {
         padding: 16px 0;
     }
-
     .banner-bottom-strip p {
         font-size: 1.1em;
     }
-
     .navigation {
         margin-top: 16px;
     }
-
     .navbar-toggle {
         margin-top: 0px;
     }
-
     .logo {
         margin-top: 15px;
     }
-
     .logo a h1 {
         font-size: 2.5em;
     }
-
-    .navbar-nav > li {
+    .navbar-nav>li {
         display: inline !important;
         margin: 0 6px;
         text-align: right;
     }
-
     .navbar-nav {
         margin: 0;
         width: 98%;
         display: inline;
     }
-
     .welcome h3 {
         font-size: 2.2em;
     }
-
     .features h3 {
         font-size: 2.2em;
     }
-
     .project-grid-text1 p {
         font-size: 13px;
     }
-
     .features1 h3 {
         font-size: 2em;
     }
-
     .product-grids1 {
         margin-bottom: 1.5em;
     }
-
     .banner5 {
         min-height: 100px;
     }
-
     .blog-to {
         margin-top: 0;
     }
-
     .top-blog {
         width: 78%;
     }
-
     .single-bottom input[type="submit"] {
         width: 17%;
     }
-
     .single-bottom {
         padding: 0em 0 2em;
     }
-
     .service_info {
         margin-top: 2em;
     }
-
     .navbar-default .navbar-toggle .icon-bar {
         background-color: #fff !important;
     }
-
-    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    .navbar-default .navbar-toggle:hover,
+    .navbar-default .navbar-toggle:focus {
         background-color: #0acf66 !important;
         transition: 0.5s all;
         -webkit-transition: 0.5s all;
@@ -2522,23 +2566,18 @@ div#portfoliolist {
         -o-transition: 0.5s all;
         -ms-transition: 0.5s all;
     }
-
     .features {
         padding: 1em 0 4em;
     }
-
     .contact-top-right {
         padding: 0;
     }
-
     .contact-top-left {
         padding: 0;
     }
-
     .contact-textarea input[type="submit"] {
         margin: 10px 12px 0px 0px;
     }
-
     .navbar-collapse {
         border-top: none !important;
         -webkit-box-shadow: none !important;
@@ -2550,154 +2589,122 @@ div#portfoliolist {
     .logo a h1 {
         font-size: 2em;
     }
-
     .banner1 {
         min-height: 180px;
     }
-
     .banner-slide {
         min-height: 180px;
     }
-
     .banner2 {
         min-height: 180px;
     }
-
     .banner-title h2 {
         font-size: 2em;
         margin-left: 0.4em;
         padding-top: 1.5em;
     }
-
     .banner-title p {
         width: 80%;
         font-size: 1em;
         margin-left: .9em;
     }
-
     .banner-bottom-strip p {
         font-size: 1em;
         line-height: 1.8em;
     }
-
     .features h5 {
         font-size: 1em;
     }
-
     .features-left {
         width: 100%;
         float: none;
     }
-
     .features-right {
         width: 100%;
         float: none;
     }
-
     .features-right1 {
         width: 100%;
         float: none;
     }
-
     .features-left1 img {
         width: 100%;
         float: none;
         height: 263px;
     }
-
     .features h3 {
         font-size: 2em;
     }
-
     .welcome h3 {
         font-size: 2em;
     }
-
     .features1 h3 {
         font-size: 1.8em;
     }
-
     .features {
         padding: 2em 0 2.5em;
     }
-
     .product-grid {
         padding-right: 4px;
         padding-left: 4px;
     }
-
     .features-info {
         margin-top: 1em;
     }
-
     .welcome h5 {
         font-size: 1em;
     }
-
     .features1 h5 {
         font-size: 1em;
     }
-
     .testimonials-text {
         min-height: 167px;
         padding-top: 3.9em;
         padding-left: 2em;
     }
-
     .testimonials-quote h5 {
         font-size: 1.6em;
     }
-
     .ftr {
         width: 47%;
     }
-
     .about-top-right h4 {
         font-size: 1em;
     }
-
     .who_are h4 {
         font-size: 1.1em;
     }
-
     .top-blog {
         width: 74%;
     }
-
     .media-body p {
         line-height: 1.8em;
     }
-
     .contact-textarea input[type="submit"] {
         margin: 10px 5px 0px 0px;
     }
-
     .contact-top {
         padding-top: 2em;
     }
-
-
-
     .ftr-logo a h3 {
         font-size: 2em;
     }
-
     .banner5 {
         min-height: 100px;
     }
-
-    .abouts h3, .services h3, .blog h3, .gallery h3, .contact h3 {
+    .abouts h3,
+    .services h3,
+    .blog h3,
+    .gallery h3,
+    .contact h3 {
         font-size: 2.5em;
     }
-
     .single-bottom input[type="submit"] {
         width: 22%;
     }
-
     .moments-bottom {
         margin-left: .5em;
     }
-
     .moments-left {
         padding-right: 5px;
         padding-bottom: 5px;
@@ -2714,7 +2721,6 @@ div#portfoliolist {
     .navigation {
         width: 50%;
     }
-
     @media (max-width: 375px) {
         .navigation {
             width: 51%;
@@ -2724,387 +2730,316 @@ div#portfoliolist {
         .navigation {
             width: 42%;
         }
-
         .banner-title h2 {
             font-size: 1.7em;
             margin-left: .8em;
             padding-top: 1.9em;
         }
-
         .banner-title p {
             width: 90%;
             font-size: .9em;
             margin-left: 1.7em;
         }
-
         .banner-bottom-strip p {
             font-size: .9em;
         }
-
         .welcome {
             padding: 2em 0 0;
         }
-
         .welcome h3 {
             font-size: 1.5em;
         }
-
         .welcome h5 {
             font-size: .9em;
             line-height: 1.8em;
         }
-
         .product-grid {
             width: 100%;
             float: none;
             padding: 0;
             margin-bottom: 1.5em;
         }
-
         .features {
             padding: 0em 0 2.5em;
         }
-
         .products {
             padding: 2em 0 0;
         }
-
         .products {
             padding: 1em 0 0;
         }
-
         .features h3 {
             font-size: 1.5em;
         }
-
         .features-right {
             padding: 1.1em;
         }
-
         .features1 h3 {
             font-size: 1.3em;
             line-height: 1.4em;
             margin-bottom: .6em;
         }
-
         .features-info1 {
             margin-top: 1em;
         }
-
         .features-right1 {
             padding: 1.1em
         }
-
         .features-left img {
             height: 180px;
         }
-
         .features-left1 img {
             height: 180px;
         }
-
         .project-grid-text1 h4 {
             font-size: 1.071em;
             margin: 0 0 .2em;
         }
-
         .project-grid-text1 p {
             font-size: .95em;
             line-height: 1.6em;
         }
-
         .features h5 {
             font-size: .95em;
             line-height: 1.6em;
         }
-
         .features-right p {
             font-size: .95em;
             line-height: 1.7em;
         }
-
         .features-right1 p {
             font-size: .95em;
             line-height: 1.7em;
         }
-
         .testimonials-quote h5 {
             font-size: 1.2em;
             line-height: 1.5em;
         }
-
         .testimonials-text {
             min-height: 140px;
             padding-top: 2.5em;
             padding-left: 2em;
         }
-
         .testimonials-quote {
             min-height: 118px;
         }
-
         h3.team {
             margin-left: 0;
             font-size: 2em;
         }
-
         .testimonials {
             margin: 0em 0 2em;
         }
-
         .team-grid {
             width: 100%;
             float: none;
             padding-left: 0;
             padding-right: 0;
         }
-
         .team-work {
             margin-bottom: 0;
         }
-
         .features1 h5 {
             font-size: .95em;
             line-height: 1.6em;
         }
-
         .ftr {
             width: 100%;
             text-align: center;
         }
-
         .ftr-logo {
             text-align: center;
             padding: 0;
             margin-bottom: 1em;
         }
-
         .banner5 {
             min-height: 60px;
         }
-
-        .abouts h3, .services h3, .blog h3, .gallery h3, .contact h3 {
+        .abouts h3,
+        .services h3,
+        .blog h3,
+        .gallery h3,
+        .contact h3 {
             font-size: 2.2em;
         }
-
-        .abouts, .services, .blog, .gallery, .contact {
+        .abouts,
+        .services,
+        .blog,
+        .gallery,
+        .contact {
             padding: 1.5em 0;
         }
-
         .about-top {
             margin-top: 1.5em;
         }
-
         .grid_4 {
             margin-top: 1.5em;
         }
-
         .single-inline {
             padding-top: 1.5em;
         }
-
         .moments-bottom {
             margin-top: 1.5em;
         }
-
         .contact-top {
             padding-top: 1.5em;
         }
-
         .banner-bottom-strip {
             padding: 5px 0;
         }
-
         .about-top-left {
             width: 100%;
             float: none;
             padding-right: 0;
         }
-
         .about-top-right {
             padding: 0;
             margin-top: 1em;
         }
-
         .who_are {
             margin-top: 2em;
         }
-
         .team-work1 {
             margin-top: 2em;
         }
-
         .team-grid1 {
             width: 100%;
             float: none;
             padding-left: 0;
             padding-right: 0;
         }
-
         h4.team {
             margin-bottom: .8em;
             text-align: center;
         }
-
         .team-grid1 p {
             margin-bottom: 1.5em;
         }
-
         .grid_4 {
             padding: 0em 0em 0em 0em;
         }
-
         .grid_5 {
             padding: 0em 0em 0em 0em;
             margin-top: 0em;
         }
-
-        .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+        .table>thead>tr>th,
+        .table>tbody>tr>th,
+        .table>tfoot>tr>th,
+        .table>thead>tr>td,
+        .table>tbody>tr>td,
+        .table>tfoot>tr>td {
             padding: 0 !important;
         }
-
         section#tables {
             padding: 0em 0em 0em 0em;
             margin-top: 0em;
         }
-
         .blog-left b {
             font-size: 2em;
             height: 36px;
         }
-
         .blog-left span {
             font-size: 1.3em;
         }
-
         .blog-left {
             padding-right: .6em;
         }
-
         .top-blog {
             margin: 0.5em 0em 0em 1em;
             width: 79%;
         }
-
         .top-blog p {
             margin-top: .6em;
         }
-
         .single-bottom h3 {
             font-size: 1.9em;
             margin: 0.5em 0 .6em;
         }
-
         .media {
             margin: 0em 0 2em;
         }
-
         .single-bottom input[type="submit"] {
             width: 34%;
         }
-
         .moments-bottom {
             margin-left: 0;
         }
-
         .moments-left {
             width: 100%;
             float: none;
             padding: 0;
             margin-bottom: 1em;
         }
-
         .contact-top-left {
             padding: 0;
         }
-
         .contact-top-right {
             padding: 0;
         }
-
         .contact-textarea input[type="text"] {
             padding: 11px 14px;
         }
-
         .contact-textarea textarea {
             padding: 11px 14px;
             min-height: 10em;
         }
-
         .contact-top-left iframe {
             height: 200px;
         }
-
         .contact-textarea input[type="submit"] {
             margin: 0px 4px 0px 0px;
         }
-
         .top-blog a.fast {
             font-size: 1.1em;
         }
-
         .navbar-toggle {
             margin-right: 0px;
         }
-
         .navbar-nav {
             width: 100%;
         }
-
         .navbar-nav {
             margin: 7.5px 0px;
         }
-
         .product-grid img {
             width: 80%;
             margin: 0 auto;
         }
-
         .about-top-left img {
             width: 80%;
             margin: 0 auto;
         }
-
         .team-grid img {
             width: 80%;
         }
-
         .team-grids {
             text-align: center;
         }
-
         .team-grid1 img {
             width: 80%;
         }
-
         .project-grid-text1 {
             text-align: center;
         }
-
         .contact-textarea input[type="submit"] {
             padding: 10px 0px;
         }
-
         .contact-textarea input[type="reset"] {
             padding: 10px 0px;
             margin: 5px 0px 0px 0px;
         }
-
         ul.grid-part li a {
             padding: 0.4em 0;
             font-size: .9em;
         }
-
         ul.grid-part {
             margin: 0.5em 0 1em;
         }
-
         .single-middle h3 {
             font-size: 2em;
         }
-    }.inlines {
-         display: inline-block;
-     }
+    }
+    .inlines {
+        display: inline-block;
+    }
 }
-
-
