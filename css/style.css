@@ -3043,3 +3043,31 @@ div#portfoliolist {
         display: inline-block;
     }
 }
+@media (min-width: 768px) {
+    .containertab {
+        width: 1150px;
+    }
+}
+@media (min-width: 992px) {
+    .containertab {
+        width: 1170px;
+    }
+}
+@media (min-width: 1200px) {
+    .containertab {
+        width: 1540px;
+    }
+}
+.containertab {
+    padding-right: 15px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.grid_tab p {
+    color: #42426F;
+    font-size: .95em;
+    margin-bottom: 1em;
+    font-weight: 300;
+    FONT-FAMILY: 新宋体;
+}
