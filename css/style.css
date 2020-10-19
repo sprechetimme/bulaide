@@ -78,7 +78,7 @@ ul {
 }
 
 .logo a img {
-    width: 140%;
+    width: 150%;
     z-index: 9999;
 }
 
@@ -89,7 +89,7 @@ ul {
 }
 
 .banner-bottom-strip p {
-    font-size: 1.5em;
+    font-size: 1.8em;
     color: #fff;
 }
 
@@ -936,6 +936,13 @@ h3.team {
     margin-top: 1em;
 }
 
+.about-top-right2 p {
+    color: #848484;
+    font-size: 1.25em;
+    line-height: 1.8em;
+    margin-top: 1em;
+}
+
 .who_are {
     margin-top: 3em;
 }
@@ -944,14 +951,14 @@ h3.team {
     letter-spacing: 2px;
     color: #3f67bf;
     margin-bottom: 0.5em;
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: 600;
 }
 
 .who_are h4 {
     letter-spacing: 2px;
     color: #404642;
-    font-size: 1.2em;
+    font-size: 1.6em;
     font-weight: 600;
     margin-bottom: 0.7em;
 }
@@ -959,7 +966,7 @@ h3.team {
 .who_are p {
     color: #848484;
     line-height: 1.8em;
-    font-size: .95em;
+    font-size: 1.25em;
     margin-bottom: 1em;
 }
 
@@ -976,7 +983,7 @@ h3.team {
 
 .about-list ul li a {
     color: #87CEFA;
-    font-size: .95em;
+    font-size: 1.5em;
     text-decoration: none;
 }
 

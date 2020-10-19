@@ -124,10 +124,9 @@
 			var Message = $("textarea[name='Message']").val();
 
 			var str = JSON.stringify( {name:name , secondName : secondName , eMail : eMail,Message:Message} );
-			alert(str);
 
-			var url = getUrl();
-			alert(url);
+			//var url = getUrl();
+
 			$.ajax({
 				headers : {
 					Accept: "application/json; charset=utf-8",

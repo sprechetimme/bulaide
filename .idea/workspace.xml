@@ -11,9 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0ba0053-51c4-4319-8715-269c218ef95d" name="Default Changelist" comment="logo图片">
+      <change afterPath="$PROJECT_DIR$/images/about2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/languageconversion.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/languageconversion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/langJson/cn.json" beforeDir="false" afterPath="$PROJECT_DIR$/langJson/cn.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reset/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/reset/header.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,22 +46,22 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\HBuilderxPro\bu-lai-de" />
-      <recent name="D:\HBuilderxPro\bu-lai-de\images" />
-      <recent name="D:\HBuilderxPro\bu-lai-de\reset" />
-      <recent name="D:\HBuilderxPro\bu-lai-de\js" />
-      <recent name="D:\HBuilderxPro\bu-lai-de\css" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\HBuilderxPro\bu-lai-de\reset" />
       <recent name="D:\HBuilderxPro\bu-lai-de\css" />
       <recent name="D:\HBuilderxPro\bu-lai-de" />
       <recent name="D:\HBuilderxPro\bu-lai-de\js" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\HBuilderxPro\bu-lai-de\images" />
+      <recent name="D:\HBuilderxPro\bu-lai-de" />
+      <recent name="D:\HBuilderxPro\bu-lai-de\reset" />
+      <recent name="D:\HBuilderxPro\bu-lai-de\js" />
+      <recent name="D:\HBuilderxPro\bu-lai-de\css" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -74,7 +78,8 @@
       <workItem from="1602206299591" duration="9936000" />
       <workItem from="1602224531388" duration="30812000" />
       <workItem from="1602666531907" duration="2346000" />
-      <workItem from="1602724221242" duration="23482000" />
+      <workItem from="1602724221242" duration="23621000" />
+      <workItem from="1603069963709" duration="3907000" />
     </task>
     <task id="LOCAL-00001" summary="官网基础">
       <created>1601372183974</created>
@@ -118,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602817117533</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="logo图片">
+      <created>1602842086294</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1602842086295</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,29 +161,29 @@
       <screen x="0" y="0" width="1472" height="864" />
     </state>
     <state x="467" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1472.864@0.0.1472.864" timestamp="1602213635439" />
-    <state x="-31" y="341" width="1286" height="678" key="DiffContextDialog" timestamp="1602727961806">
+    <state x="-31" y="341" width="1286" height="678" key="DiffContextDialog" timestamp="1603073123287">
       <screen x="0" y="0" width="1472" height="864" />
     </state>
-    <state x="-31" y="341" width="1286" height="678" key="DiffContextDialog/0.0.1472.864@0.0.1472.864" timestamp="1602727961806" />
-    <state x="329" y="165" key="Vcs.Push.Dialog.v2" timestamp="1602817118941">
+    <state x="-31" y="341" width="1286" height="678" key="DiffContextDialog/0.0.1472.864@0.0.1472.864" timestamp="1603073123287" />
+    <state x="329" y="165" key="Vcs.Push.Dialog.v2" timestamp="1602842087575">
       <screen x="0" y="0" width="1472" height="864" />
     </state>
-    <state x="329" y="165" key="Vcs.Push.Dialog.v2/0.0.1472.864@0.0.1472.864" timestamp="1602817118941" />
+    <state x="329" y="165" key="Vcs.Push.Dialog.v2/0.0.1472.864@0.0.1472.864" timestamp="1602842087575" />
     <state x="332" y="42" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602746890412">
       <screen x="0" y="0" width="1472" height="864" />
     </state>
     <state x="332" y="42" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1472.864@0.0.1472.864" timestamp="1602746890412" />
-    <state x="541" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602816462496">
+    <state x="541" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603071203270">
       <screen x="0" y="0" width="1472" height="864" />
     </state>
-    <state x="541" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1472.864@0.0.1472.864" timestamp="1602816462496" />
-    <state x="676" y="324" width="600" height="536" key="find.popup" timestamp="1602831803754">
+    <state x="541" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1472.864@0.0.1472.864" timestamp="1603071203270" />
+    <state x="676" y="324" width="600" height="536" key="find.popup" timestamp="1603073721219">
       <screen x="0" y="0" width="1472" height="864" />
     </state>
-    <state x="676" y="324" width="600" height="536" key="find.popup/0.0.1472.864@0.0.1472.864" timestamp="1602831803754" />
-    <state x="399" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1602831807309">
+    <state x="676" y="324" width="600" height="536" key="find.popup/0.0.1472.864@0.0.1472.864" timestamp="1603073721219" />
+    <state x="399" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1603075466267">
       <screen x="0" y="0" width="1472" height="864" />
     </state>
-    <state x="399" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1472.864@0.0.1472.864" timestamp="1602831807309" />
+    <state x="399" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1472.864@0.0.1472.864" timestamp="1603075466267" />
   </component>
 </project>
