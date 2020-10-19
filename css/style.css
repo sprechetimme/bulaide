@@ -3052,17 +3052,17 @@ div#portfoliolist {
 }
 @media (min-width: 768px) {
     .containertab {
-        width: 1150px;
+        width: 1050px;
     }
 }
 @media (min-width: 992px) {
     .containertab {
-        width: 1170px;
+        width: 1070px;
     }
 }
 @media (min-width: 1200px) {
     .containertab {
-        width: 1540px;
+        width: 1450px;
     }
 }
 .containertab {
