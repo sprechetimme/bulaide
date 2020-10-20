@@ -42,24 +42,25 @@
 					var Message = $("textarea[name='Message']").val();
 
 
-					var str = JSON.stringify( {name:name , secondName : secondName , eMail : eMail,Message:Message} );
-					alert(str)
-					var url = getUrl();
-					alert(url);
-					$.ajax({
-						headers : {
-							Accept: "application/json; charset=utf-8",
 
-						},
-						url: url +":8081"+ "/contact/message",
-						method: "POST",
-						data: {
-							"name":name , "secondName" : secondName , "eMail" : eMail,"Message":Message
-						},
-						timeout: 3000,
-						crossDomain: true,
+					var params ={
+						"name":name ,
+						"secondName" : secondName ,
+						"eMail" : eMail,
+						"message":Message
+					}
+					var str = JSON.stringify( params );
+					var url = getUrl();
+					$.ajax({
+
+						url: url +":8088"+ "/bulaide/contact/message",
+						type: 'POST',
+						contentType:'application/json',
+
+						data: str,
+						async:false,
 						beforeSend: function(request) {
-							request.setRequestHeader("Access-Control-Allow-Origin", "*");
+							// request.setRequestHeader("Access-Control-Allow-Origin", "*");
 						},
 						success: function(data, textStatus, jqXHR){
 							console.log(data);
