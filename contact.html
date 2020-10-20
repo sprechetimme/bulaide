@@ -29,10 +29,49 @@
 <!--/fonts-->
 <!--script-->
 <script type="text/javascript">
+
 			jQuery(document).ready(function($) {
 				$(".scroll").click(function(event){		
 					event.preventDefault();
 					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+				$("#newsubmit").click(function(){
+					var name = $("input[name='name']").val();
+					var secondName = $("input[name='secondName']").val();
+					var eMail = $("input[name='eMail']").val();
+					var Message = $("textarea[name='Message']").val();
+
+
+					var str = JSON.stringify( {name:name , secondName : secondName , eMail : eMail,Message:Message} );
+					alert(str)
+					var url = getUrl();
+					alert(url);
+					$.ajax({
+						headers : {
+							Accept: "application/json; charset=utf-8",
+
+						},
+						url: url +":8081"+ "/contact/message",
+						method: "POST",
+						data: {
+							"name":name , "secondName" : secondName , "eMail" : eMail,"Message":Message
+						},
+						timeout: 3000,
+						crossDomain: true,
+						beforeSend: function(request) {
+							request.setRequestHeader("Access-Control-Allow-Origin", "*");
+						},
+						success: function(data, textStatus, jqXHR){
+							console.log(data);
+
+						},
+						error: function(xhr, textStatus){
+							console.log(xhr);
+
+						},
+						complete: function(){}
+					})
+					//   ip+port/bulaide/contact/message
 				});
 			});
 </script>
@@ -48,6 +87,8 @@
 					$(".top-nav ul").slideToggle("slow" , function(){
 					});
 				});
+
+
 		 </script>
 		 <!-- script-for-menu -->
 <div class="banner-left">
@@ -75,7 +116,7 @@
 			<div class="contact-main">
 				<div class="contact-top">
 					<div class="col-md-6 contact-top-left">
-						<img src="../images/contact.png"  style="width: 100%;height: 528px;">
+						<img src="images/contact.png"  style="width: 100%;height: 528px;">
 <!--						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d92622.7729403269!2d-112.03370705!3d43.49270405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1434188003159" frameborder="0" style="border:0"></iframe>-->
 					</div>
 					<div class="col-md-6 contact-top-right">
@@ -85,7 +126,7 @@
 								<input lang name="secondName" type="text" value="Second Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Second Name';}"/>
 								<input lang name="eMail" type="text" value="Email Id" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email Id';}"/>
 								<textarea lang name="Message" value="Message.." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message..';}">Message..</textarea>
-								<input type="submit" onclick="LeaveMessage()" value="SUBMIT" lang >
+								<input  class="newsubmit"  id="newsubmit" value="SUBMIT"   readonly lang >
 								<input type="reset" onclick="location.reload()" value="CLEAR" lang>
 							</form>
 						</div>
@@ -117,43 +158,13 @@
 				easingType: 'linear' 
 				};
 				*/
+
+
 		$().UItoTop({ easingType: 'easeOutQuart' });
+
+
 });
-		function 	LeaveMessage(){
-			var name = $("input[name='name']").val();
-			var secondName = $("input[name='secondName']").val();
-			var eMail = $("input[name='eMail']").val();
-			var Message = $("textarea[name='Message']").val();
 
-			var str = JSON.stringify( {name:name , secondName : secondName , eMail : eMail,Message:Message} );
-
-			//var url = getUrl();
-
-			$.ajax({
-				headers : {
-					Accept: "application/json; charset=utf-8",
-					'token' : '9B4BF951093F1F1A40BB2DAAA30B3838'
-				},
-				url: url +":8088"+ "/contact/message",
-				type: 'POST',
-				async: true,
-				data: str,
-				timeout: 3000,
-				change: true,
-				dataType: 'json',
-				beforeSend: function(xhr){},
-				success: function(data, textStatus, jqXHR){
-					console.log(data);
-
-				},
-				error: function(xhr, textStatus){
-					console.log(xhr);
-
-				},
-				complete: function(){}
-			})
-			//   ip+port/bulaide/contact/message
-		}
 </script>
 <a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 <!----> 
