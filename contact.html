@@ -65,10 +65,13 @@
 						success: function(data, textStatus, jqXHR){
 							console.log(data);
 
+							$("#messageTips").text("感谢您的留言");
+							$("#leavemessage").click();
 						},
 						error: function(xhr, textStatus){
 							console.log(xhr);
-
+							$("#messageTips").text("网络原因：留言失败");
+							$("#leavemessage").click();
 						},
 						complete: function(){}
 					})
@@ -131,6 +134,33 @@
 								<input type="reset" onclick="location.reload()" value="CLEAR" lang>
 							</form>
 						</div>
+					</div>
+					<button class="btn btn-primary btn-lg" id="leavemessage" data-toggle="modal" data-target="#myModal" style="display: none">
+
+					</button>
+					<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+									&times;
+								</button>
+								<h4 class="modal-title" id="myModalLabel">
+									提示
+								</h4>
+							</div>
+							<div class="modal-body" id="messageTips">
+
+							</div>
+							<div class="modal-footer">
+								</button>
+								<button type="button" class="btn btn-primary" onclick="location.reload()">
+									确认
+								</button>
+							</div>
+						</div><!-- /.modal-content -->
+					</div><!-- /.modal -->
 					</div>
 					<div class="clearfix"></div>
 				</div>
